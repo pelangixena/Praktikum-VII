@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan Ternary dalam Ternary</title>
+</head>
+<body>
+    <script>
+        var harga = prompt ("Harga:");
+        var kategori = (harga <= 100) ? "Murah" : 
+               (harga > 100 && harga <= 500) ? "Sedang" :
+               "Mahal";
+        document.write("<p>Kategori produk dengan harga Rp." + harga + " adalah: " + kategori + "</p>");
+    </script>
+</body>
+</html>
